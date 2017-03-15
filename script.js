@@ -1,4 +1,4 @@
-var techies_data_url = 'https://api.airtable.com/v0/appHHeiqyJmJPdgw3/Techies?api_key=key2m8VgwGT2iztad';
+var techies_data_url = 'https://airtable.com/tbl44bjro8pJGh9vi/viwDgx01MeBnvgeE0';
 var techiesHTML = '';
 var techiesDiv = $('.techies');
 var renderTechiesData = function (data) {
