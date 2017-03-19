@@ -3,6 +3,7 @@ var brendamorHTML = '';
 var brendamorDiv = $('.symptoms');
 var renderbrendamorData = function (data) {
   data.records.forEach(function(brendamor) {
+    brendamorHTML += '<h1>' + brendamor.fields['MY SYMPTOMS TRACKER'] + '</h1>';
     brendamorHTML += '<h2>' + brendamor.fields['Name'] + '</h2>';
     brendamorHTML += '<p>' + brendamor.fields['Description'] + '</p>';
     brendamorHTML += '<hr />';

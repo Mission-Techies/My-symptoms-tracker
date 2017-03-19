@@ -1,7 +1,43 @@
-* {
-    margin: 0;
-    padding: 0;
+h1 {
+    font-size: 40px;
+    text-align: center;
+  font-weight: bold;
+  color: DarkBlue;
+    font-family: Vidaloka, verdana;
 }
+h3 {
+  width: 35%;
+}
+body {
+ background-image:
+   url("http://wallpapercave.com/wp/Soxhq2I.jpg");
+ background-size: cover;
+}
+.container {
+  display: flex;
+}
+
+.main {
+  width: 65%;
+}
+
+.sidebar {
+  width: 33%;
+  padding: 2%;
+}
+
+.photo {
+  width: 100%;
+}
+img {
+  border-radius: 15%;
+  width: 95%;
+  position: relative;
+}
+ a {
+    color: blue;
+   text-decoration: none;
+  }
 
 .thumbnail-logo{
   display: block;
