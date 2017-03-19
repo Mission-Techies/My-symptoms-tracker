@@ -21,7 +21,7 @@ body {
   width: 65%;
 }
 
-.sidebar {
+.main-top {
   width: 33%;
   padding: 2%;
 }
@@ -34,10 +34,6 @@ img {
   width: 95%;
   position: relative;
 }
- a {
-    color: blue;
-   text-decoration: none;
-  }
 
 .thumbnail-logo{
   display: block;
