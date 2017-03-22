@@ -16,15 +16,26 @@ body {
    url("https://www.xmple.com/wallpaper/linear-grey-brown-gradient-1920x1080-c2-f4a460-d3d3d3-a-120-f-14.svg");
  background-size: cover;
 }
-.container {
+/*.symptoms, .symptoms2 {
+  width: 50%
+  /*overflow-x: scroll;*/
+}*/
+.container{
   display: flex;
 }
 
 .main {
-  width: 65%;
+  width: 100%;
 }
 
 .main-top {
   width: 33%;
   padding: 2%;
+}
+img{
+  width: 200px;
+}
+.feelings {
+ width: 50%;
+
 }
