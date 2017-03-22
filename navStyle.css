@@ -2,15 +2,18 @@ h1 {
     font-size: 40px;
     text-align: center;
   font-weight: bold;
-  color: DarkBlue;
+  color: Darkbrown;
     font-family: Vidaloka, verdana;
 }
-h3 {
+h2 {
   width: 35%;
+}
+p {
+  width: auto;
 }
 body {
  background-image:
-   url("http://wallpapercave.com/wp/Soxhq2I.jpg");
+   url("https://www.xmple.com/wallpaper/linear-grey-brown-gradient-1920x1080-c2-f4a460-d3d3d3-a-120-f-14.svg");
  background-size: cover;
 }
 .container {
@@ -24,76 +27,4 @@ body {
 .main-top {
   width: 33%;
   padding: 2%;
-}
-
-.photo {
-  width: 100%;
-}
-img {
-  border-radius: 15%;
-  width: 95%;
-  position: relative;
-}
-
-.thumbnail-logo{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 50px;
-  width: 100%;
-}
-
-
-
-nav {
-    position: fixed;
-    z-index: 1000;
-    top: 0;
-    bottom: 0;
-    width: 150px;
-    background-color: white;
-    transform: translate3d(-150px, 0, 0);
-    transition: transform 0.4s ease;
-}
-.active-nav nav {
-    transform: translate3d(0, 0, 0);
-}
-nav ul {
-    list-style: none;
-    margin-top: 100px;
-}
-nav ul li a {
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    color: #136100;
-    padding: 10px 0;
-    font-weight: bold;
-    font-size: 20px;
-}
-nav ul li a:hover{
-
-  background: #f30056;
-  text-decoration: none;
-
-}
-
-.nav-toggle-btn {
-    display: block;
-    position: absolute;
-    left: 150px;
-
-}
-
-.glyphicon{
-  font-size: 2.5em;
-
-}
-
-.glyphicon:hover{
-  color: #f30056;
-}
-
-.active-nav .content {
-    transform: translate3d(150px, 0, 0);
 }
